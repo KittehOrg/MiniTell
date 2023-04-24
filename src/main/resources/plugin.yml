@@ -1,0 +1,15 @@
+name: MiniTell
+version: '${version}'
+author: mbaxter
+main: org.kitteh.minitell.MiniTell
+website: https://mbax.dev
+api-version: 1.19
+permissions:
+  minitell.tell:
+    default: op
+    description: Grants ability to use /minitell
+commands:
+  minitell:
+    description: Mini tell!
+    usage: /minitell <player> <message...>
+    permission: minitell.tell
